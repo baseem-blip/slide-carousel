@@ -17,6 +17,10 @@ With simple setup, `slide-carousel` makes it easy to add a smooth, customizable 
 
 ---
 
+### Demo
+https://baseem-blip.github.io/slide-carousel
+
+
 ## Installation
 
 ```bash
