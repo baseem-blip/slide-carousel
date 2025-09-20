@@ -9,9 +9,9 @@
     <div style="margin-top: 30em" id="carousel"></div>
 
     <script type="module">
-      import { CarouselBuilder } from "./carouselBuilder.js";
+      import Carousel from "./carousel.js";
 
-      new CarouselBuilder(document.getElementById("carousel"))
+      Carousel.builder(document.querySelector("#carousel"))
         .setImages([
           "https://placehold.co/1920x1080?text=1",
           "https://placehold.co/1920x1080?text=2",
@@ -19,7 +19,7 @@
           "https://placehold.co/1920x1080?text=4",
         ])
         .setInterval(2000)
-        .setAutoPlay(true)
+        .setAutoPlay(false)
         .build();
     </script>
   </body>

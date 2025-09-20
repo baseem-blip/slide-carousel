@@ -1,4 +1,4 @@
-declare module "carousel" {
+declare module "slide-carousel" {
   export default class CarouselBuilder {
     constructor(container: HTMLElement);
 
@@ -9,4 +9,5 @@ declare module "carousel" {
     setAutoPlay(flag: boolean): this;
     build(): any;
   }
+  
 }

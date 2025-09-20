@@ -1,14 +1,21 @@
 {
   "name": "slide-carousel",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "Slide carousel with vanilla JavaScript",
   "license": "MIT",
-  "author": "bedrock foundry",
+  "author": "Baseem ali",
   "types": "./index.d.ts",
   "type": "module",
   "main": "carousel.js",
   "exports": {
-    ".": "./carousel.js"
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./carousel.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baseem-blip/slide-carousel.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
