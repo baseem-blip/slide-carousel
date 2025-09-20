@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="margin-top: 30em" id="carousel"></div>
+
+    <script type="module">
+      import { CarouselBuilder } from "./carouselBuilder.js";
+
+      new CarouselBuilder(document.getElementById("carousel"))
+        .setImages([
+          "https://placehold.co/1920x1080?text=1",
+          "https://placehold.co/1920x1080?text=2",
+          "https://placehold.co/1920x1080?text=3",
+          "https://placehold.co/1920x1080?text=4",
+        ])
+        .setInterval(2000)
+        .setAutoPlay(true)
+        .build();
+    </script>
+  </body>
+</html>

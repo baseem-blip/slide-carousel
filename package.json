@@ -1,0 +1,16 @@
+{
+  "name": "slide-carousel",
+  "version": "1.0.0",
+  "description": "Slide carousel with vanilla JavaScript",
+  "license": "MIT",
+  "author": "bedrock foundry",
+  "types": "./index.d.ts",
+  "type": "module",
+  "main": "carousel.js",
+  "exports": {
+    ".": "./carousel.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
